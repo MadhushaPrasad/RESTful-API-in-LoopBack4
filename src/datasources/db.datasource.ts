@@ -4,7 +4,7 @@ import {juggler} from '@loopback/repository';
 const config = {
   name: 'db',
   connector: 'memory',
-  localStorage: './data/db.json',
+  localStorage: '',
   file: './data/db.json'
 };
 
